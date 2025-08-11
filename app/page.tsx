@@ -28,7 +28,7 @@ export default function HomePage() {
                     种菜血脉觉醒者
                   </span>
                   <span className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">
-                    暴躁的小学生饲养员
+                    暴躁的小学生饲养员～
                   </span>
                   <span className="bg-amber-50 text-amber-700 px-3 py-1 rounded-full text-xs font-medium">
                     挖野菜爱好者
