@@ -40,7 +40,7 @@ export default function HomePage() {
                     间歇性运动爱好者
                   </span>
                   <span className="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs font-medium">
-                    生娃劝导员
+                    生娃劝导员plus
                   </span>
                   <span className="bg-teal-50 text-teal-700 px-3 py-1 rounded-full text-xs font-medium">
                     追剧小达人
