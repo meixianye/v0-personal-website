@@ -1,6 +1,9 @@
+import DownloadResume from "@/components/download-resume"
+import ResumeDownloadSection from "@/components/resume-download-section"
+
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div id="resume-content" className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-white py-6">
         <div className="max-w-6xl mx-auto px-5">
@@ -12,7 +15,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-4 leading-relaxed text-base px-16 font-light">
                 Data&AI产品经理 @ Thoughtworks
               </p>
-              
+
               <div className="space-y-3">
                 <div className="flex flex-wrap gap-2 px-16 mt-4">
                   <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">
@@ -45,7 +48,7 @@ export default function HomePage() {
                   <span className="bg-cyan-50 text-cyan-700 px-3 py-1 rounded-full text-xs font-medium">
                     数据产品培训师
                   </span>
-                  <s企业数据产品培训师ssName="bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full text-xs font-medium">
                     AI项目实战者
                   </span>
                   <span className="bg-violet-50 text-violet-700 px-3 py-1 rounded-full text-xs font-medium">
@@ -189,6 +192,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Resume Download Section */}
+      <ResumeDownloadSection />
+
+      {/* Floating Download Button */}
+      <DownloadResume />
     </div>
   )
 }
